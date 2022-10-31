@@ -1,9 +1,12 @@
 .header{
+  display: flex;
+  align-items: flex-start;
   color: rgb(2, 2, 106);
   width: 800px;
 }
 .header_left{
   text-align: left;
+  margin-right: 300px;
 }
 .header_right{
   text-align: right;
@@ -16,10 +19,11 @@ li{
   width: 800px;
   position: relative;
 }
-img{
+.img{
   margin: 0 0 0 auto;
   display: block;
   width: 60%;
+  position: relative;
   z-index: 10;
 }
 .position_absolute{
@@ -29,9 +33,9 @@ img{
   position: absolute;
   top: 300px;
   left: 0px;
-  z-index: 0;
+  z-index: -10;
 }
-h2{
+.title{
   font-size: 40px;
   position: absolute;
   top: 200px;

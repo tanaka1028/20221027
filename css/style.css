@@ -1,8 +1,11 @@
+body{
+  width: 100vw;
+}
 .header{
   display: flex;
   align-items: flex-start;
   color: rgb(2, 2, 106);
-  width: 800px;
+  width: 1000px;
 }
 .header_left{
   text-align: left;
@@ -16,7 +19,7 @@ li{
   display: inline-block;
 }
 .main{
-  width: 800px;
+  width: 100%;
   position: relative;
 }
 .img{
@@ -27,7 +30,7 @@ li{
   z-index: 10;
 }
 .position_absolute{
-  width: 600px;
+  width: 75%;
   height: 200px;
   background-color: rgb(6, 6, 128);
   position: absolute;
